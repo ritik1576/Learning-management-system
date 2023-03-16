@@ -1,0 +1,18 @@
+/* #search{
+    margin-left: 359px;
+    width: 369px;
+    border-radius: 30px;
+} */
+.btn
+{
+    margin-right: 550px;
+}
+.carousel-control-prev{
+    margin-left: 325px;
+    background-color: black;
+}
+#search{
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 90px;
+}

@@ -1,0 +1,11 @@
+.table{
+    height: 230px;
+    margin-left: 14px;
+    margin-top: 10px;
+
+}
+#search{
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 90px;
+}

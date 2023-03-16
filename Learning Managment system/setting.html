@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="setting.css">
+    <title>LMS-Setting</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">AveryBit</a>
+          
+          <input type="text" id="search"></input>
+          <button class="btn btn-outline-success"  style="margin-left: -250px;">Search</button>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Profile
+            </button>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button" onclick="location.href ='progress.html';">My Progress</button></li>
+              <li><button class="dropdown-item" type="button">Account Setting</button></li>
+              <li><button class="dropdown-item" type="button" onclick="location.href ='course.html';">My Learning</button></li>
+              <li><button class="dropdown-item" type="button"onclick="location.href ='index.html';">Logout</button></li>
+            </ul>
+          </div>
+      </nav>
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"onclick="location.href='dashboard.html';" >Home</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" onclick="location.href ='manageuser.html';">User </button>
+          <button class="nav-link " id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" onclick="location.href ='course.html'; " >Course </button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"onclick="location.href ='progress.html';">Progress </button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onclick="location.href ='assessment.html';">Assessment</button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onclick="location.href ='activitylog.html';">Activity Log</button>
+          <button class="nav-link active" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" onclick="location.href ='setting.html';" >Setting</button>
+        </div>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+<div class="row flex-lg-nowrap">
+ 
+
+  <div class="col">
+    <div class="row">
+      <div class="col mb-3">
+        <div class="card">
+          <div class="card-body">
+            <div class="e-profile">
+              <div class="row">
+                <div class="col-12 col-sm-auto mb-3">
+                  <div class="mx-auto" style="width: 140px;">
+                    <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
+                      <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                  <div class="text-center text-sm-left mb-2 mb-sm-0">
+                    <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Ritik Choudhary</h4>
+                    <p class="mb-0">ritikchoudhary@gmail.com</p>
+                    <div class="text-muted"><small>Last seen 2 hours ago</small></div>
+                    <div class="mt-2">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fa fa-fw fa-camera"></i>
+                        <span>Change Photo</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="text-center text-sm-right">
+                    <span class="badge badge-secondary">administrator</span>
+                    <div class="text-muted"><small>Joined 09 Dec 2017</small></div>
+                  </div>
+                </div>
+              </div>
+              <ul class="nav nav-tabs">
+                <li class="nav-item"><a href="" class="active nav-link">Settings</a></li>
+              </ul>
+              <div class="tab-content pt-3">
+                <div class="tab-pane active">
+                  <form class="form" novalidate="">
+                    <div class="row">
+                      <div class="col">
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Full Name</label>
+                              <input class="form-control" type="text" name="name" placeholder="Ritik" value="Ritik">
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Username</label>
+                              <input class="form-control" type="text" name="username" placeholder="ritik.@" value="ritik.@">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Email</label>
+                              <input class="form-control" type="text" placeholder="user@example.com">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col mb-3">
+                            <div class="form-group">
+                              <label>About</label>
+                              <textarea class="form-control" rows="5" placeholder="My Bio"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 mb-3">
+                        <div class="mb-2"><b>Change Password</b></div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Current Password</label>
+                              <input class="form-control" type="password" placeholder="••••••">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label>New Password</label>
+                              <input class="form-control" type="password" placeholder="••••••">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label>Confirm <span class="d-none d-xl-inline">Password</span></label>
+                              <input class="form-control" type="password" placeholder="••••••"></div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <div class="row">
+                      <div class="col d-flex justify-content-end">
+                        <button class="btn btn-primary" type="submit">Save Changes</button>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 mb-3">
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="px-xl-3">
+              <button class="btn btn-block btn-secondary">
+                <i class="fa fa-sign-out"></i>
+                <span onclick="location.href = 'index.html';">Logout</span>
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-title font-weight-bold">Support</h6>
+            <p class="card-text">Get fast, free help from our friendly assistants.</p>
+            <button type="button" class="btn btn-primary" onclick="location.href='https://averybit.com/contact/';" >Contact Us</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.heading{
+    text-align: center;
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+.form{
+    border: 1px solid black;
+    height: 400px;
+    margin-top: 10px;
+    width: 680px
+    
+}
+.form-label{
+    font-size: x-large;
+    color: black;
+    margin-left: -501px;
+    margin-top: 20px;
+    font-family: auto;
+}
+#About{
+    float: left;
+}
+#company{
+    float: right;
+    color: rgb(40, 38, 38);
+    display: grid;
+}
+span.a{
+    color: black;
+}
+aside{
+    float:right;
+    text-align: center;
+    width: 700px;
+}
+footer{
+    margin-top: 200px;
+   
+    
+}
+.link1{
+  
+    text-decoration: none;
+}
+.link1 a{
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(43, 43, 43);
+}
+.link2 a{
+    margin: 5px;
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+section{
+    margin-top: 50px;
+}
+.div-footer{
+   background-color: antiquewhite;
+}
+.socialmedia{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.div-footer{
+    background-color: aqua;
+}
+.inputmail{
+    
+}
+.inputtag{
+    width: 40%;
+    margin-left: -360px;
+}
+.checkbox-login{
+    margin-top: 3%;
+    margin-left: -390px;
+}
